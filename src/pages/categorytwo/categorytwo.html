@@ -1,0 +1,99 @@
+<!--
+  Generated template for the CategorytwoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content class="back">
+  <h2 style="color:white" id="menu" align="center">Planet Category</h2>
+  <ion-slides pager="true">
+    <ion-slide>
+      <ion-card class="pt">1.What is the great red spot</ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option1">
+              <ion-option value="A">A sumdge on the hubble</ion-option>
+              <ion-option value="B">A storm on jupiter</ion-option>
+              <ion-option value="C">A storm on saturn</ion-option>
+              <ion-option value="D">A storm on mercy</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">2.How much would a 150 pound person weigh on Mars</ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option2">
+              <ion-option value="A1">57 pounds</ion-option>
+              <ion-option value="B1">174 pounds</ion-option>
+              <ion-option value="C1">102 pounds</ion-option>
+              <ion-option value="D1">150 pounds</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">3.About how long is a day on Saturn</ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option3">
+              <ion-option value="A2">10 hours and 47 minutes</ion-option>
+              <ion-option value="B2">4 hours and 57 minutes</ion-option>
+              <ion-option value="C2">6 hours and 57 minutes</ion-option>
+              <ion-option value="D2"> 24 hours</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">4.The temperature on this planets surface is hot enough to melt lead. Which one is it?
+      </ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option4">
+              <ion-option value="A3">Mars</ion-option>
+              <ion-option value="B3">Venus</ion-option>
+              <ion-option value="C3">Earth</ion-option>
+              <ion-option value="D3">Jupiter</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">5.Which planet has the hgihest mountain and deepest valley in the solar system?</ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option5">
+              <ion-option value="A4">Mars</ion-option>
+              <ion-option value="B4">Pluto</ion-option>
+              <ion-option value="C4">Earth</ion-option>
+              <ion-option value="D4">Venus</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+  <ion-slide>
+    <button ion-button color="dark" (click)="addAnswers()">View Results</button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

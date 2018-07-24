@@ -1,0 +1,32 @@
+page-categorytwo {
+    .back{
+        background:url('../../assets/jj.jpg');
+        background-size:cover;
+        background-attachment: fixed;
+        margin:0 auto;
+       
+    }
+    ion-item#item{
+        background-color:rgba(0, 0, 0, 0.692);
+        color:white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .pt{
+        color:white;
+        background-color:rgba(0, 0, 0, 0.596);
+        font-size:xx-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .flex{
+        display:flex;
+        justify-content: center;
+    }
+    .button{
+        font-size:xx-large;
+      
+    }
+}

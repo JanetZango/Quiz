@@ -1,0 +1,42 @@
+page-category {
+.back{
+    background:url('../../assets/cc.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    margin:0 auto;
+   
+}
+
+ion-item#item{
+    background-color:rgb(229,179,130);
+    opacity: 0.8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+}
+
+.pt{
+    opacity: 0.8;
+    background-color:rgb(229,179,130);
+    color:black;
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button{
+    background-color:rgb(229,179,130);
+    font-size:xx-large;
+    color:black;
+
+}
+
+
+
+}
+

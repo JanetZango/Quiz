@@ -1,0 +1,104 @@
+<!--
+  Generated template for the CategorythreePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content class="back">
+    <h2 style="color:white" id="menu" align="center">World Category</h2>
+    <ion-slides pager="true">
+      <ion-slide>
+          <ion-card class="pt">1.This city is the largest in the Arabic-speaking world as well as the largest in the Middle East and located in Egypt.</ion-card>
+          <div class="flex">
+            <div class="container">
+                <ion-item id="item">
+                    <ion-label>Choose 1</ion-label>
+                    <ion-select [(ngModel)]="option1">
+                      <ion-option value="A">Casablanca</ion-option>
+                      <ion-option value="B">Cairo</ion-option>
+                      <ion-option value="C">Riyadn</ion-option>
+                      <ion-option value="D">Baghdad</ion-option>
+                    </ion-select>
+                  </ion-item>
+            </div>
+          </div>
+      </ion-slide>
+      <br>
+      <ion-slide>
+          <ion-card class="pt">2.This ancient Mediterranean city may well be the oldest capital city in the world,
+              having been inhabited continuously since at least 7000 B.C.</ion-card>
+              <div class="flex">
+                <div class="container">
+                    <ion-item id="item"> 
+                        <ion-label>Choose 1</ion-label>
+                        <ion-select [(ngModel)]="option2">
+                          <ion-option value="A1">Athens</ion-option>
+                          <ion-option value="B1">Damascus</ion-option>
+                          <ion-option value="C1">Beirut</ion-option>
+                          <ion-option value="D1">Rome</ion-option>
+                        </ion-select>
+                      </ion-item>
+                </div>
+              </div> 
+      </ion-slide>
+      <br>
+      <ion-slide>
+          <ion-card class="pt">3.This capital city is both the world's windiest city as well as the southernmost capital. Rather ironically,
+              it is located on its country's North Island. This city is located in a country that starts with "New".</ion-card>
+              <div class="flex">
+                <div class="container">
+                    <ion-item id="item">
+                        <ion-label>Choose 1</ion-label>
+                        <ion-select [(ngModel)]="option3">
+                          <ion-option value="A2">Maputo</ion-option>
+                          <ion-option value="B2">Wellington</ion-option>
+                          <ion-option value="C2">Canberra</ion-option>
+                          <ion-option value="D2">Capetown</ion-option>
+                        </ion-select>
+                      </ion-item>
+                </div>
+              </div>  
+      </ion-slide> 
+      <br>
+      <ion-slide>
+          <ion-card class="pt">4This capital may be most well-known to Western audiences as being in Borat's
+              home country of Kazakhstan, but it's also one of the most inaccessible national capitals, lying over 1,000 miles away from the nearest ocean, the Arctic Ocean.
+          </ion-card>
+          <div class="flex">
+            <div class="container">
+                <ion-item id="item">
+                    <ion-label>Choose 1</ion-label>
+                    <ion-select [(ngModel)]="option4">
+                      <ion-option value="A3">Astana</ion-option>
+                      <ion-option value="B3">Tashkent</ion-option>
+                      <ion-option value="C3">Kabul</ion-option>
+                      <ion-option value="D3">Bishkek</ion-option>
+                    </ion-select>
+                  </ion-item>
+            </div>
+          </div>
+      </ion-slide>
+      <br>
+      <ion-slide>
+          <ion-card class="pt">5.This capital city is the most densely populated city proper in the world,
+              with a staggering 110,000 people per square mile. It also shares its name with a type of paper and a popular office product.</ion-card>
+           <div class="flex">
+             <div class="container">
+                <ion-item id="item">
+                    <ion-label>Choose 1</ion-label>
+                    <ion-select  [(ngModel)]="option5">
+                      <ion-option value="A4">Canberra</ion-option>
+                      <ion-option value="B4">New Delhi</ion-option>
+                      <ion-option value="C4">Manila</ion-option>
+                      <ion-option value="D4">Brussels</ion-option>
+                    </ion-select>
+                  </ion-item>
+             </div>
+           </div>   
+      </ion-slide>
+  <ion-slide>
+      <button ion-button (click)=" addAnswers()">view results</button>
+  </ion-slide>
+  </ion-slides>
+  
+

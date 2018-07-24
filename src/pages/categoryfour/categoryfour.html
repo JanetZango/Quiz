@@ -1,0 +1,100 @@
+<!--
+  Generated template for the CategoryfourPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content class="back">
+    <h2 style="color:white" id="menu" align="center">Politics Category</h2>
+    <ion-slides pager="true">
+    <ion-slide>
+      <ion-card class="pt">1.Black Consciousness Movement. Which leader of the Black Consciousness Movement in South Africa was killed in police
+        custody in 1977?</ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option1">
+              <ion-option value="A">Steve Biko</ion-option>
+              <ion-option value="B">Walter Biopeteng</ion-option>
+              <ion-option value="C">Sipho Bengali</ion-option>
+              <ion-option value="D">Oliver Badebe</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">2.Which political party, in 1922, used the slogan "Workers of the world, unite and fight for a white South Africa!"</ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option2">
+              <ion-option value="A1">Cape Peoples Party</ion-option>
+              <ion-option value="B1">Conservative Party</ion-option>
+              <ion-option value="C1">Correct Supremist</ion-option>
+              <ion-option value="D1">Communist Party</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">3.What F is the segregationist political party that aims to protect the rights of Afrikaners?</ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option3">
+              <ion-option value="A2"> Freedom Front Plus</ion-option>
+              <ion-option value="B2"> Federation of Boere (Boere Federasie)</ion-option>
+              <ion-option value="C2">Freedom Front</ion-option>
+              <ion-option value="D2">D.Federation of Afrikaans Culture (Federasie van Afrikaans Kulture)</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">4.Government. What type of government does South Africa have?
+      </ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option4">
+              <ion-option value="A3">Dictatorship</ion-option>
+              <ion-option value="B3">Federal Republic</ion-option>
+              <ion-option value="C3">Republic</ion-option>
+              <ion-option value="D3">Confederation</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">5. H - Houses of Parliament. Which of the Houses of Parliament represented the Asian South African vote under the tricameral
+        parliament system between 1984 and 1994?</ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option5">
+              <ion-option value="A4">House of Orientals</ion-option>
+              <ion-option value="B4">House of Representatives</ion-option>
+              <ion-option value="C4">House of Delegates</ion-option>
+              <ion-option value="D4">House of Assembly</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <button ion-button (click)=" addAnswers()">View Results</button>
+    </ion-slide>
+  </ion-slides>

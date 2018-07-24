@@ -1,0 +1,99 @@
+<!--
+  Generated template for the TakeQuizStage1Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content class="back">
+  <h1 style="color:white" id="menu" align="center">Science Category</h1>
+  <ion-slides pager=true>
+    <ion-slide>
+      <ion-card class="pt">1.Which one of the following is not included in physical science</ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option1">
+              <ion-option value="A">physics</ion-option>
+              <ion-option value="B">Chemistry</ion-option>
+              <ion-option value="C">Astronomy</ion-option>
+              <ion-option value="D">Zoology</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">2.What science deals most with energy and forces</ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option2">
+              <ion-option value="A1">Biology</ion-option>
+              <ion-option value="B1">Physics</ion-option>
+              <ion-option value="C1">Botany</ion-option>
+              <ion-option value="D1">Agriculture</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">3.Using superconductors to build computers is an example of</ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option3">
+              <ion-option value="A2">Techology</ion-option>
+              <ion-option value="B2">Applied biology</ion-option>
+              <ion-option value="C2">Pure science</ion-option>
+              <ion-option value="D2">An experiment</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">4.A balance is a scientific tool used to measure</ion-card>
+      <div class="flex">
+        <div clas="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option4">
+              <ion-option value="A3">Temperature</ion-option>
+              <ion-option value="B3">Time</ion-option>
+              <ion-option value="C3">Volume</ion-option>
+              <ion-option value="D3">Mass</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">5.The composition of the mixture of gases that makes up our air is best represented on what kind of graph?</ion-card>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label>Choose 1</ion-label>
+            <ion-select [(ngModel)]="option5">
+              <ion-option value="A4">Line graph</ion-option>
+              <ion-option value="B4">Variable graph</ion-option>
+              <ion-option value="C4">Bar graph</ion-option>
+              <ion-option value="D4">Pie chart</ion-option>
+            </ion-select>
+          </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <button ion-button (click)="addAnswers()">View Results</button>
+      {{score}}
+    </ion-slide>
+  </ion-slides>
+</ion-content>

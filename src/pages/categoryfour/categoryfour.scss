@@ -1,0 +1,32 @@
+page-categoryfour {
+    .back{
+        background:url('../../assets/fff.jpg');
+        background-size:cover;
+        background-attachment: fixed;
+        margin:0 auto;
+       
+    }
+
+    .flex{
+        display:flex;
+        justify-content: center;
+    }
+
+  
+   .pt{
+        background-color:rgba(0, 0, 0, 0.692);
+        color:white;
+        font-size:xx-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             
+    }
+    ion-item#item{
+        background-color:rgba(0, 0, 0, 0.692);
+        color:white;
+        font-size:large;
+    }
+    .button{
+        font-size:xx-large;
+        background-color:rgba(0, 0, 0, 0.692);
+    }
+}

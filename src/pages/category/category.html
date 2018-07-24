@@ -1,0 +1,112 @@
+<!--
+  Generated template for the CategoryPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content class="back">
+ <h2 style="color:black" id="menu" align="center">Math Category</h2>
+  <ion-slides pager="true">
+    <ion-slide>
+        <ion-card class="pt">
+          1. if 1=5
+          <br> 2=25
+          <br> 3=325
+          <br> 4=4325
+          <br> 5 =?
+        </ion-card>
+        <div class="flex">
+          <div class="container"> 
+              <ion-item id="item">
+                  <ion-label>Choose 1</ion-label>
+                  <ion-select [(ngModel)]="option1">
+                    <ion-option value="A">6325</ion-option>
+                    <ion-option value="B">54325</ion-option>
+                    <ion-option value="C">55325</ion-option>
+                    <ion-option value="D">74325</ion-option>
+                  </ion-select>
+                </ion-item>
+          </div>
+        </div>   
+    </ion-slide> 
+    <br>
+    <ion-slide>
+        <ion-card class="pt">
+            2.Solve 20+70(7-2)
+          </ion-card>
+          <div class="flex">
+            <div class="container">
+                <ion-item id="item">
+                    <ion-label>Choose 1</ion-label>
+                    <ion-select [(ngModel)]="option2">
+                      <ion-option value="A1">420</ion-option>
+                      <ion-option value="B1">95</ion-option>
+                      <ion-option value="C1">320</ion-option>
+                      <ion-option value="D1">370</ion-option>
+                    </ion-select>
+                  </ion-item>
+            </div>
+          </div> 
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">
+        3. What is 3 + 3 * 3 - 3 + 3 =?
+      </ion-card>
+      <div class="flex">
+        <div clas="container">
+            <ion-item id="item">
+                <ion-label>Choose 1</ion-label>
+                <ion-select [(ngModel)]="option3">
+                  <ion-option value="A2">18</ion-option>
+                  <ion-option value="B2">12</ion-option>
+                  <ion-option value="C2">03</ion-option>
+                  <ion-option value="D2">06</ion-option>
+                </ion-select>
+              </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">
+        4. Which of these is a correct step in solving the equation 5y-4 = 12-3y?
+      </ion-card>
+      <div class="flex">
+        <div class="container">
+            <ion-item id="item">
+                <ion-label>Choose 1</ion-label>
+                <ion-select [(ngModel)]="option4">
+                  <ion-option value="A3">8y = 16</ion-option>
+                  <ion-option value="B3">2y = 8</ion-option>
+                  <ion-option value="C3">8y = 8</ion-option>
+                  <ion-option value="D3">2y = 16</ion-option>
+                </ion-select>
+              </ion-item>
+        </div>
+      </div>
+    </ion-slide>
+    <br>
+    <ion-slide>
+      <ion-card class="pt">
+        6/2(1+2) =?
+      </ion-card>
+      <div class="flex">
+        <div class="container">
+            <ion-item id="item">
+                <ion-label>Choose 1</ion-label>
+                <ion-select [(ngModel)]="option5">
+                  <ion-option value="A4">01</ion-option>
+                  <ion-option value="B4">09</ion-option>
+                  <ion-option value="C4">05</ion-option>
+                  <ion-option value="D4">04</ion-option>
+                </ion-select>
+              </ion-item>
+        </div>
+      </div>  
+    </ion-slide>
+    <ion-slide>
+      <button ion-button color="dark" (click)="addAnswers()">view results</button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

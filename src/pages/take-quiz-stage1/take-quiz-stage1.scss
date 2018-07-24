@@ -1,0 +1,40 @@
+page-take-quiz-stage1 {
+.back{
+    background:url('../../assets/f1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:0 auto;
+    
+}
+ion-item#item{
+    background-color:rgba(25, 25, 112, 0.781);
+    width:100%;
+    color:white;
+    font-size:large;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.pt{
+background-color:rgba(25, 25, 112, 0.781);
+color:white;
+font-size:xx-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.button{
+    background-color: rgba(25, 25, 112, 0.781);
+    height:70px;
+   
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+ 
+}
+
+
+}
